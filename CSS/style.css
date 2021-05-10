@@ -1,0 +1,91 @@
+.titre{
+border: 1px solid black;
+margin: 0px 0px 30px 0px;
+padding: 10px;
+font-size: 18px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: black;
+color:white;
+}
+.titre h1{
+    font-size: 35px;
+    display: inline-block;
+    margin: 5px 10px 0px 0px ;
+    padding-bottom: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.titre i{
+    display: inline-block;
+    margin: 0px 0px 0px 10px ;
+    color: red;
+    /* background-color: white; */
+}
+.text{
+    padding: 10px;
+}
+.pub{
+    display: inline-block;
+    margin: 50px 0px 10px 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 0.2em;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.img_container{
+    width: 300px;
+    height: 180px;
+    border:1px solid lightgray ;
+    overflow:hidden; 
+    display: inline-block; 
+    position: relative;
+    margin:32px;
+    border-radius: 0.5em;
+    
+}
+.img{
+    
+    width: 100%;
+    /* height: 100%px; */
+}
+.img_container:hover{
+    border:2px solid red ;
+}
+.img_container span{
+    color: white; 
+    font-size:10px;
+    margin: 5px;  
+    padding: 2px;
+    background-color:black; 
+    border-radius: 0.2em;
+    align-items: center;;
+}
+.opt1{ 
+ position:absolute;
+ top:3%;
+ right:0%;
+}
+.opt2{
+    position:absolute;
+    top:15%;
+    right:0%;
+   }
+.opt3{
+    position:absolute;
+    bottom:0%;
+    right:0%;
+   }
+.thumbs{
+    margin:auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    height: 500px;
+    border:1px solid lightgray;
+    border-radius: 0.5em;
+    background-image: url(../images/img_water.jpg);
+    background-repeat:no-repeat;
+    overflow: scroll;
+}
