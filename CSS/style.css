@@ -18,7 +18,7 @@ a{text-decoration:none;color:#fff}
 .menu{display:inline-block;position:static; margin-left: 0px;margin-top: 25px;}
 .menu ul{color:gray;list-style:none;margin-bottom:0px;display:inline-block;padding:0}
 .menu li{float:left;padding:0px 20px 0px 20px;position:relative;margin-bottom:5px}
-.menu .op-menu1{ margin-left: 0px; padding-left: 0px;}
+.menu .op-menu1{ margin-left: 10px; padding-left: 0px;}
 /*Fin deuxième partie ou grande division menu et search bar*/
 .img_container{width:300px;height:180px;border:1px solid #d3d3d3;overflow:hidden;display:inline-block;position:relative;margin:32px;border-radius:.5em}
 .img{width:100%}
