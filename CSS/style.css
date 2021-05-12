@@ -5,7 +5,7 @@
 .pub{display:inline-block;margin:30px 0 0 10px;border:1px solid #fff;padding:10px;border-radius:.2em}
 a{text-decoration:none;color:#fff}
 /*....fin première partie (Titres)......*/
-.search{ margin:0 100px 10px 0;position:relative;float: left;}
+.search{ margin:0px 100px 0px 10px;position:relative;float: left;}
 .search input{border:3px solid gray;font-size:28px;padding:0;position:static}
 .search label{color:#d3d3d3;position:absolute;top:20px;right:2.8px}
 .search button{border:1px solid gray}
@@ -15,8 +15,8 @@ a{text-decoration:none;color:#fff}
 .op-menu2:hover{color:#4909df}
 .op-menu3:hover{color:#4909df}
 .menu_full{border-radius:10emm;margin:0 0 5px 0;position:relative;height:60px}
-.menu{display:inline-block;position:static; margin-left: 0px;}
-.menu ul{color:gray;list-style:none;display:inline-block;padding:0}
+.menu{display:inline-block;position:static; margin-left: 0px;margin-top: 25px;}
+.menu ul{color:gray;list-style:none;margin-bottom:0px;display:inline-block;padding:0}
 .menu li{float:left;padding:0px 20px 0px 20px;position:relative;margin-bottom:5px}
 .menu .op-menu1{ margin-left: 0px; padding-left: 0px;}
 /*Fin deuxième partie ou grande division menu et search bar*/
@@ -27,4 +27,4 @@ a{text-decoration:none;color:#fff}
 .opt1{position:absolute;top:3%;right:0}
 .opt2{position:absolute;top:15%;right:0}
 .opt3{position:absolute;bottom:0;right:0}
-.thumbs{margin:auto;height:500px;border:1px solid #d3d3d3;border-radius:.5em;background-image:url(../images/img_water.jpg);background-repeat:no-repeat;overflow:scroll}
+.thumbs{margin:0px 10px 10px 10px ;height:500px;border:1px solid #d3d3d3;border-radius:.5em;background-image:url(../images/img_water.jpg);background-repeat:no-repeat;overflow:scroll}
