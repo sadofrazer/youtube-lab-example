@@ -8,7 +8,8 @@
     <!-- <icone titre -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/img-icon1.png">
     <title>Youtube Lab</title>
-
+    <!-- link vers bootstrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
 
@@ -17,7 +18,7 @@
 
 <body>
 
-
+    <!-- Début de la première partie (les titres de la page) -->
     <div class="titre">
         <i class="fab fa-youtube fa-2x"></i>
         <h1>Youtube</h1><br>
@@ -25,9 +26,12 @@
         <br>
         <a href="https://www.youtube.com" target="_blank"><span class="pub"><strong> 1 MOIS GRATUIT</strong></span></a>
     </div>
+    <!-- Fin de la première partie -->
 
-    <div class="menu_full">
-
+    <!-- Début de la deuxième partie (les menus et la search bar) -->
+    <!-- <div class="menu_full"> -->
+    <div
+        style="border:2px solid lightgray; margin-bottom:10px; padding-bottom:15px; background-color:cornflowerblue; border-radius: 0.5em;">
         <div class="search">
             <form action="#" method="POST"></form>
             <input type="search" name="search_txt" value="" id="search_bar" placeholder="Rechercher">
@@ -44,91 +48,125 @@
         </div>
 
     </div>
+    <!-- Fin de la deuxième partie  -->
+
 
     <div class="thumbs">
+        <div class="container">
+            <div class="row">
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (1).jpg" alt="Film1">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:50:20</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (1).jpg" alt="Film1">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (2).jpg" alt="Film2">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (2).jpg" alt="Film2">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:08:05</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (3).jpg" alt="Film3">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (3).jpg" alt="Film3">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:50:20</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (4).jpg" alt="Film4">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (4).jpg" alt="Film4">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:50:20</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (5).jpg" alt="Film5">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (5).jpg" alt="Film5">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:08:05</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (6).jpg" alt="Film6">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (6).jpg" alt="Film6">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:50:20</span>
-        </div>
-        <div class="img_container">
-            <img class="img" src="images/img-film (7).jpg" alt="Film7">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:50:20</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (8).jpg" alt="Film8">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (8).jpg" alt="Film8">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:08:05</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (9).jpg" alt="Film9">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (9).jpg" alt="Film9">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:50:20</span>
-        </div>
-        <div class="img_container">
-            <img class="img" src="images/img-film (10).jpg" alt="Film10">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:50:20</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (10).jpg" alt="Film10">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (11).jpg" alt="Film11">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:08:05</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (11).jpg" alt="Film11">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
-        <div class="img_container">
-            <img class="img" src="images/img-film (12).jpg" alt="Film12">
-            <span class="opt1">A REGARDER PLUS TARD</span> <br>
-            <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
-            <span class="opt3">1:50:20</span>
-        </div>
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (12).jpg" alt="Film12">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
 
+                <div class="col-sm-6" style="height: 180px; width: 300px; margin: 10px; position: relative;">
+                    <div id="img_container">
+                        <img class="img" src="images/img-film (7).jpg" alt="Film7">
+                        <span class="opt1">A REGARDER PLUS TARD</span> <br>
+                        <span class="opt2">AJOUTER A LA FILE D'ATTENTE</span>
+                        <span class="opt3">1:50:20</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
 
 </body>

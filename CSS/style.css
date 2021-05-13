@@ -3,10 +3,11 @@
 .titre i{display:inline-block;margin:0 0 0 10px;color:red}
 .text{padding:10px}
 .pub{display:inline-block;margin:30px 0 0 10px;border:1px solid #fff;padding:10px;border-radius:.2em}
-a{text-decoration:none;color:#fff}
-.search{margin:0 0 10px 0;position:absolute;display:inline-block;top:0}
-.search input{border:3px solid gray;font-size:28px;padding:0;position:relative}
-.search label{color:#d3d3d3;position:absolute;top:20px;right:2.8px}
+.titre a{text-decoration:none;color:#fff}
+/*....fin première partie (Titres)......*/
+.search{ margin:0px 100px 0px 10px;position:relative;float: left;}
+.search input{border:3px solid gray;font-size:25px;padding:0;position:static}
+.search label{color:#d3d3d3;position:absolute;top:19.23px;right:3px}
 .search button{border:1px solid gray}
 .search button:hover{border:1px solid red}
 .search input:hover{color:#4909df}
@@ -14,14 +15,16 @@ a{text-decoration:none;color:#fff}
 .op-menu2:hover{color:#4909df}
 .op-menu3:hover{color:#4909df}
 .menu_full{border-radius:10emm;margin:0 0 5px 0;position:relative;height:60px}
-.menu{display:inline-block;position:absolute;height:100%;top:0;left:30%}
-.menu ul{color:gray;list-style:none;display:inline-block;padding:0}
-.menu li{float:left;padding:0 20px 20px 20px;position:relative;margin-bottom:5px}
-.img_container{width:300px;height:180px;border:1px solid #d3d3d3;overflow:hidden;display:inline-block;position:relative;margin:32px;border-radius:.5em}
-.img{width:100%}
-.img_container:hover{border:2px solid red}
-.img_container span{color:#fff;font-size:10px;margin:5px;padding:2px;background-color:#000;border-radius:.2em;align-items:center}
+.menu{display:inline-block;position:static; margin-left: 0px;margin-top: 25px;}
+.menu ul{color:gray;list-style:none;margin-bottom:0px;display:inline-block;padding:0}
+.menu li{float:left;padding:0px 20px 0px 20px;position:relative;margin-bottom:5px}
+.menu .op-menu1{ margin-left: 10px; padding-left: 0px;}
+/*Fin deuxième partie ou grande division menu et search bar*/
+#img_container{padding:0px;border:1px solid #d3d3d3;overflow:hidden;display:inline-block;position:relative;margin:auto;border-radius:.5em}
+img.img{width:100%; height: 100%;}
+#img_container:hover{border:2px solid red}
+#img_container span{color:#fff;font-size:10px;margin:5px;padding:2px;background-color:#000;border-radius:.2em;align-items:center}
 .opt1{position:absolute;top:3%;right:0}
 .opt2{position:absolute;top:15%;right:0}
 .opt3{position:absolute;bottom:0;right:0}
-.thumbs{margin:auto;height:500px;border:1px solid #d3d3d3;border-radius:.5em;background-image:url(../images/img_water.jpg);background-repeat:no-repeat;overflow:scroll}
+.thumbs{margin:0px 10px 10px 10px ;height:500px;border:1px solid #d3d3d3;border-radius:.5em;background-image:url(../images/img_water.jpg);background-repeat:no-repeat;overflow:scroll}
